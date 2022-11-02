@@ -1,3 +1,4 @@
+//https://jimskapt.github.io/rust-book-fr/ch20-02-multithreaded.html
 use salutations::GroupeTaches; //appel de lib.rs
 use std::fs;
 use std::io::prelude::*;
