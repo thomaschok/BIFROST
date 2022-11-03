@@ -1,6 +1,4 @@
 //https://jimskapt.github.io/rust-book-fr/ch20-02-multithreaded.html
-use salutations::GroupeTaches; //appel de lib.rs
-use std::fs;
 use std::io::prelude::*;
 use std::net::TcpListener;
 use std::net::TcpStream;
@@ -42,5 +40,3 @@ fn gestion_connexion(mut flux: TcpStream) {
     flux.write(reponse.as_bytes()).unwrap(); // convertie chaine de caractère en octets 
     flux.flush().unwrap(); // temporise l'éxécution de la suite tant que le flux n'a pas étais traiter
 }
-
-
