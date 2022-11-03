@@ -36,7 +36,6 @@ impl GroupeTaches {
         self.envoi.send(mission).unwrap();
     }
 }
-
 struct Operateur { //crée un opérateur 
     id: usize,
     tache: thread::JoinHandle<()>,
